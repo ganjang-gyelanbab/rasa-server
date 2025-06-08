@@ -10,4 +10,5 @@ RUN pip install fastapi uvicorn requests
 
 EXPOSE 5005
 
+CMD ["./start.sh"]
 CMD ["rasa", "run", "--enable-api", "--port", "5005", "--model", "models"]
