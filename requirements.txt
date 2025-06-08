@@ -1,1 +1,1 @@
-rasa==3.6.6
+pip install rasa
